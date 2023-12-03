@@ -1,0 +1,239 @@
+-- Susy Fsploit do not mess up the code
+-- Version: 0.1 skibidi
+-- Instances:
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local epic = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel_2 = Instance.new("TextLabel")
+local Execute = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+--Properties:
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0.32549, 0.32549, 0.32549)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.5, -158, 0.5, -83)
+Frame.Size = UDim2.new(0, 316, 0, 167)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 316, 0, 167)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Pyxpixel Beta ServerSide Executer"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 36
+TextLabel.TextWrapped = true
+
+epic.Name = "epic"
+epic.Parent = ScreenGui
+
+Main.Name = "Main"
+Main.Parent = epic
+Main.BackgroundColor3 = Color3.new(0.203922, 0.203922, 0.203922)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.010766536, 0, 0.582400024, 0)
+Main.Size = UDim2.new(0, 384, 0, 250)
+
+Frame_2.Parent = Main
+Frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame_2.BorderSizePixel = 0
+Frame_2.Size = UDim2.new(0, 384, 0, 11)
+
+TextBox.Parent = Main
+TextBox.BackgroundColor3 = Color3.new(0.168627, 0.168627, 0.168627)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0338541679, 0, 0.224000007, 0)
+TextBox.Size = UDim2.new(0, 363, 0, 141)
+TextBox.ClearTextOnFocus = false
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "Coded by Pyxpixel - put your require scripts "
+TextBox.TextColor3 = Color3.new(1, 1, 1)
+TextBox.TextSize = 20
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0338541679, 0, 0.0599999987, 0)
+TextLabel_2.Size = UDim2.new(0, 236, 0, 41)
+TextLabel_2.Font = Enum.Font.GothamBlack
+TextLabel_2.Text = "Ss Pyxpixel Beta v0.1"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextSize = 35
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel_2.TextYAlignment = Enum.TextYAlignment.Top
+
+Execute.Name = "Execute"
+Execute.Parent = Main
+Execute.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.0320000052, 0, 0.815999985, 0)
+Execute.Size = UDim2.new(0, 178, 0, 37)
+Execute.Font = Enum.Font.GothamSemibold
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.new(1, 1, 1)
+Execute.TextSize = 16
+
+Clear.Name = "Clear"
+Clear.Parent = Main
+Clear.BackgroundColor3 = Color3.new(0.152941, 0.152941, 0.152941)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.515625, 0, 0.815999985, 0)
+Clear.Size = UDim2.new(0, 178, 0, 37)
+Clear.Font = Enum.Font.GothamSemibold
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.new(1, 1, 1)
+Clear.TextSize = 16
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton.BackgroundTransparency = 1
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.9140625, 0, 0.0480000004, 0)
+TextButton.Size = UDim2.new(0, 31, 0, 27)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.new(1, 1, 1)
+TextButton.TextSize = 25
+-- Scripts:
+function SCRIPT_VLOL74_FAKESCRIPT() -- ScreenGui.Script 
+	local script = Instance.new('Script')
+	script.Parent = ScreenGui
+	local frame = script.Parent.Parent.ScreenGui.Frame
+	local text = script.Parent.Parent.ScreenGui.Frame.TextLabel
+	
+	frame.Position = UDim2.new(0.5, -158, 0.5, 0)
+	frame.Size = UDim2.new(0, 316, 0, 0)
+	frame.Visible = false
+	text.Visible = false
+	wait(1.5)
+	frame.Visible = true
+	frame:TweenPosition(UDim2.new(0.5, -158, 0.5, -83), "Out", "Quad", 0.5)
+	frame:TweenSize(UDim2.new(0, 316, 0, 165), "Out", "Quad", 0.5)
+	wait(1)
+	text.Visible = true
+	for loop = 1, 10 do
+		text.TextTransparency = 1-loop/10
+		wait(0.005)
+	end
+	wait(2)
+	frame:Destroy()
+	text:Destroy()
+
+end
+coroutine.resume(coroutine.create(SCRIPT_VLOL74_FAKESCRIPT))
+function SCRIPT_NANX79_FAKESCRIPT() -- Frame_2.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Frame_2
+	while wait() do
+		script.Parent.BackgroundColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g+(17/255),script.Parent.BackgroundColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r-(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g-(17/255),script.Parent.BackgroundColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r+(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b-(17/255))
+		end
+	end
+
+end
+coroutine.resume(coroutine.create(SCRIPT_NANX79_FAKESCRIPT))
+function SCRIPT_MGRK65_FAKESCRIPT() -- Execute.Script 
+	local script = Instance.new('Script')
+	script.Parent = Execute
+	local remote = script.Parent.MSFunction
+	
+	remote.OnServerEvent:Connect(function(idk, lol)
+		require(script.Loadstring)(lol)()
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_MGRK65_FAKESCRIPT))
+function SCRIPT_SCMF76_FAKESCRIPT() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Execute
+	local execute = script.Parent.Parent.Execute
+	local text = script.Parent.Parent.TextBox
+	local remote = script.Parent.MSFunction
+	
+	execute.MouseButton1Click:Connect(function()
+		remote:FireServer(text.Text)
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_SCMF76_FAKESCRIPT))
+function SCRIPT_ECGT76_FAKESCRIPT() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = Clear
+	local clear = script.Parent.Parent.Clear
+	local text = script.Parent.Parent.TextBox
+	
+	clear.MouseButton1Click:Connect(function()
+		text.Text = ""
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ECGT76_FAKESCRIPT))
+function SCRIPT_DQXL84_FAKESCRIPT() -- TextButton.Script 
+	local script = Instance.new('Script')
+	script.Parent = TextButton
+	local close = script.Parent.Parent.TextButton
+	local gui = script.Parent.Parent.Parent.Parent.epic
+	
+	close.MouseButton1Click:Connect(function()
+		gui:Destroy()
+	end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_DQXL84_FAKESCRIPT))
+function SCRIPT_HCEH89_FAKESCRIPT() -- epic.LocalScript 
+	local script = Instance.new('LocalScript')
+	script.Parent = epic
+	local frame = script.Parent.Main
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+
+end
+coroutine.resume(coroutine.create(SCRIPT_HCEH89_FAKESCRIPT))
+function SCRIPT_OOBP88_FAKESCRIPT() -- epic.Script 
+	local script = Instance.new('Script')
+	script.Parent = epic
+	local GUI = script.Parent.Parent.epic
+	GUI.ResetOnSpawn = false
+	
+	GUI.Main.Visible = false
+	wait(5.5)
+	GUI.Main.Visible = true
+
+end
+coroutine.resume(coroutine.create(SCRIPT_OOBP88_FAKESCRIPT))
